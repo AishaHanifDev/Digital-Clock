@@ -1,0 +1,39 @@
+body {
+margin:0;
+padding:0;
+font-family:verdana, sans-serif;
+box-sizing:border-box;
+background: url("time img.jpg") no-repeat;
+}
+.Wrapper {
+width:100%;
+height:100vh;
+position:fixed;
+}
+.Container{
+ width:100%;
+ height:100vh;
+}
+h1 {
+text-align:center;
+padding-bottom:10px;
+letter-spacing:5px;
+font-size:40px;
+color:red;
+text-decoration:underline 5px black;
+
+}
+.clock {
+position: absolute;
+top: 30%;
+left:49%;
+transform: translateX(-50%) translateY(-50%);
+color: #17D4FE;
+background-color:black;
+font-size: 60px;
+font-family: Orbitron;
+letter-spacing: 7px;
+border:5px solid red;
+padding:20px;
+border-radius:5px;
+}
